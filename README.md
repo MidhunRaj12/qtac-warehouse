@@ -33,90 +33,52 @@ Three-layer pipeline:
 ```mermaid
 erDiagram
     dim_applicant {
-        serial      applicant_sk    PK
-        integer     applicant_id    "NK"
-        text        first_name
-        text        last_name
-        date        date_of_birth
-        text        email
-        text        phone
-        text        state
-        text        postcode
-        date        valid_from      "SCD2"
-        date        valid_to        "SCD2"
-        boolean     is_current      "SCD2"
-        timestamp   load_ts
+        serial  applicant_sk PK
+        integer applicant_id
+        date    valid_from
+        date    valid_to
+        boolean is_current
     }
 
     dim_course {
-        serial        course_sk        PK
-        text          course_code      UK
-        text          course_name
-        text          institution_code
-        text          institution_name
-        text          campus
-        text          study_mode
-        integer       duration_years
-        numeric       atar_cutoff
-        boolean       csp_available
-        boolean       is_active
-        timestamp     load_ts
+        serial course_sk PK
+        text   course_code UK
     }
 
     dim_qualification {
-        serial    qualification_sk   PK
-        text      qualification_id   UK
-        integer   applicant_id       FK
-        text      qualification_type
-        text      institution_name
-        integer   year_completed
-        numeric   gpa
-        numeric   atar_score
-        boolean   verified
-        timestamp load_ts
+        serial  qualification_sk PK
+        text    qualification_id UK
+        integer applicant_id FK
     }
 
     fact_preference {
-        text      preference_id    PK
-        integer   applicant_id
-        integer   applicant_sk     FK
-        text      course_code
-        integer   course_sk        FK
-        integer   preference_order
-        integer   application_year
-        text      offer_status
-        date      offer_date
-        text      response
-        date      response_date
-        timestamp load_ts
+        text    preference_id PK
+        integer applicant_sk FK
+        integer course_sk FK
+        integer preference_order
+        text    offer_status
+        text    response
     }
 
     reject_qualifications {
-        text      qualification_id
-        text      applicant_id
-        text      qualification_type
-        text      reject_reason
-        timestamp reject_ts
-        text      source_file
+        text qualification_id
+        text applicant_id
+        text reject_reason
     }
 
     mart_accepted_offers {
-        integer   applicant_id
-        text      full_name
-        text      state
-        text      course_code
-        text      course_name
-        text      institution_name
-        text      qualification_type
-        numeric   atar_score
-        timestamp load_ts
+        integer applicant_id
+        text    full_name
+        text    course_code
+        text    qualification_type
+        numeric atar_score
     }
 
-    dim_applicant     ||--o{ fact_preference     : "applicant_sk"
-    dim_course        ||--o{ fact_preference     : "course_sk"
-    dim_applicant     ||--o{ dim_qualification   : "applicant_id"
-    dim_applicant     ||--o{ reject_qualifications : "applicant_id (orphan)"
-    fact_preference   ||--o{ mart_accepted_offers  : "applicant_id"
+    dim_applicant    ||--o{ fact_preference      : "applicant_sk"
+    dim_course       ||--o{ fact_preference      : "course_sk"
+    dim_applicant    ||--o{ dim_qualification    : "applicant_id"
+    dim_applicant    ||--o{ reject_qualifications: "orphaned"
+    fact_preference  ||--o{ mart_accepted_offers : "applicant_id"
 ```
 
 ---
