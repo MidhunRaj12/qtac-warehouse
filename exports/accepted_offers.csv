@@ -1,0 +1,17 @@
+applicant_id,full_name,state,course_code,course_name,institution_name,qualification_type,atar_score,load_ts
+1001,Sarah Mitchell,QLD,UQ-COMP1,Bachelor of Computer Science,The University of Queensland,Year 12,85.30,2026-05-15 11:28:44.867123
+1003,Emily Zhang,QLD,UQ-ENG01,Bachelor of Engineering (Honours),The University of Queensland,Diploma,91.20,2026-05-15 11:28:44.867123
+1004,Mohammed Al-Rashid,NSW,UQ-ENG01,Bachelor of Engineering (Honours),The University of Queensland,Year 12,88.45,2026-05-15 11:28:44.867123
+1006,Liam Nguyen,QLD,USQ-IT001,Bachelor of Information Technology,University of Southern Queensland,Diploma,,2026-05-15 11:28:44.867123
+1008,Ethan Williams,QLD,,,,Year 12,68.00,2026-05-15 11:28:44.867123
+1009,Chloe Patel,VIC,GU-PSYC1,Bachelor of Psychological Science,Griffith University,Bachelor,,2026-05-15 11:28:44.867123
+1010,Noah Garcia,QLD,,,,Year 12,74.55,2026-05-15 11:28:44.867123
+1011,Ava Thompson,QLD,GU-EDU01,Bachelor of Education (Primary),Griffith University,Certificate IV,,2026-05-15 11:28:44.867123
+1012,William Lee,QLD,UQ-ARTS1,Bachelor of Arts,The University of Queensland,Year 12,82.30,2026-05-15 11:28:44.867123
+1013,Sophie Martin,QLD,UQ-COMP1,Bachelor of Computer Science,The University of Queensland,Year 12,90.10,2026-05-15 11:28:44.867123
+1014,Jack Robinson,QLD,,,,Diploma,,2026-05-15 11:28:44.867123
+1015,Isabella Chen,QLD,JCU-MED1,Bachelor of Medicine,James Cook University,Year 12,95.00,2026-05-15 11:28:44.867123
+1002,James O'Connor,NSW,QUT-BS001,Bachelor of Science,Queensland University of Technology,Year 12,78.90,2026-05-15 11:28:44.867123
+1005,Jessica Brown-Taylor,QLD,GU-NURS1,Bachelor of Nursing,Griffith University,Year 12,72.10,2026-05-15 11:28:44.867123
+1007,Olivia Smith,QLD,,,,Year 12,79.60,2026-05-15 11:28:44.867123
+1016,Mia Johnson,QLD,,,,,,2026-05-15 11:28:44.867123

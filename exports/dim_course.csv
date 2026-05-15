@@ -1,0 +1,15 @@
+course_sk,course_code,course_name,institution_code,institution_name,campus,study_mode,duration_years,atar_cutoff,csp_available,is_active,load_ts
+1,QUT-BS001,Bachelor of Science,QUT,Queensland University of Technology,Gardens Point,Full-Time,3,70.00,t,t,2026-05-15 11:28:44.725243
+2,UQ-ENG01,Bachelor of Engineering (Honours),UQ,The University of Queensland,St Lucia,Full-Time,4,89.50,t,t,2026-05-15 11:28:44.725243
+3,GU-NURS1,Bachelor of Nursing,GU,Griffith University,Gold Coast,Full-Time,3,72.00,t,t,2026-05-15 11:28:44.725243
+4,USQ-IT001,Bachelor of Information Technology,USQ,University of Southern Queensland,Toowoomba,Full-Time,3,60.00,t,t,2026-05-15 11:28:44.725243
+5,QUT-BU001,Bachelor of Business,QUT,Queensland University of Technology,Gardens Point,Full-Time,3,75.00,t,t,2026-05-15 11:28:44.725243
+6,UQ-ARTS1,Bachelor of Arts,UQ,The University of Queensland,St Lucia,Full-Time,3,71.00,t,t,2026-05-15 11:28:44.725243
+7,JCU-MED1,Bachelor of Medicine,JCU,James Cook University,Townsville,Full-Time,6,99.00,t,t,2026-05-15 11:28:44.725243
+8,GU-EDU01,Bachelor of Education (Primary),GU,Griffith University,Mt Gravatt,Full-Time,4,74.00,t,t,2026-05-15 11:28:44.725243
+9,SCU-LAW1,Bachelor of Laws,SCU,Southern Cross University,Gold Coast,Full-Time,4,,t,t,2026-05-15 11:28:44.725243
+10,QUT-DS001,Bachelor of Data Science,QUT,Queensland University of Technology,Gardens Point,Full-Time,3,82.00,t,t,2026-05-15 11:28:44.725243
+11,UQ-COMP1,Bachelor of Computer Science,UQ,The University of Queensland,St Lucia,Full-Time,3,84.00,t,t,2026-05-15 11:28:44.725243
+12,GU-PSYC1,Bachelor of Psychological Science,GU,Griffith University,Mt Gravatt,Full-Time,3,75.50,t,t,2026-05-15 11:28:44.725243
+13,CQU-ENG1,Bachelor of Engineering,CQU,CQUniversity,Rockhampton,Full-Time,4,65.00,t,f,2026-05-15 11:28:44.725243
+14,USQ-AGR01,Bachelor of Agriculture,USQ,University of Southern Queensland,Toowoomba,Part-Time,4,55.00,f,t,2026-05-15 11:28:44.725243

@@ -1,0 +1,2 @@
+qualification_id,applicant_id,qualification_type,institution_name,year_completed,gpa,atar_score,verified,reject_reason,reject_ts,source_file
+Q017,9999,Year 12,Unknown School,2018,,70.00,true,orphan_applicant_id,2026-05-15 11:28:44.552521,qualifications.csv

@@ -30,4 +30,8 @@ $PG -f "$ROOT/sql/10_warehouse/dim_applicant.sql"  #SCD2
 $PG -f "$ROOT/sql/10_warehouse/dim_qualification.sql"
 $PG -f "$ROOT/sql/10_warehouse/fact_preference.sql"
 
+echo "Building mart..."
+$PG -f "$ROOT/sql/20_mart/mart_accepted_offers.sql"
+
+
 echo "Initial load complete."

@@ -1,0 +1,17 @@
+qualification_sk,qualification_id,applicant_id,qualification_type,institution_name,year_completed,gpa,atar_score,verified,load_ts
+1,Q001,1001,Year 12,Brisbane State High School,2016,,85.30,t,2026-05-15 11:28:44.795288
+2,Q002,1002,Year 12,Ipswich Grammar School,2017,,78.90,t,2026-05-15 11:28:44.795288
+3,Q003,1003,Year 12,Southport State High School,2017,,91.20,t,2026-05-15 11:28:44.795288
+4,Q004,1004,Year 12,Sydney Boys High School,2018,,88.45,t,2026-05-15 11:28:44.795288
+5,Q005,1005,Year 12,Toowoomba Grammar School,2017,,72.10,t,2026-05-15 11:28:44.795288
+6,Q006,1006,Diploma,TAFE Queensland,2020,5.50,,t,2026-05-15 11:28:44.795288
+7,Q007,1007,Year 12,Brisbane Girls Grammar,2018,,79.60,t,2026-05-15 11:28:44.795288
+8,Q008,1008,Year 12,Cavendish Road SHS,2016,,68.00,f,2026-05-15 11:28:44.795288
+9,Q009,1009,Bachelor,Monash University,2022,6.20,,t,2026-05-15 11:28:44.795288
+10,Q010,1010,Year 12,North Lakes State College,2019,,74.55,t,2026-05-15 11:28:44.795288
+11,Q011,1011,Certificate IV,TAFE Queensland,2019,,,t,2026-05-15 11:28:44.795288
+12,Q012,1012,Year 12,Cairns State High School,2017,,82.30,t,2026-05-15 11:28:44.795288
+13,Q013,1013,Year 12,Brisbane State High School,2019,,90.10,t,2026-05-15 11:28:44.795288
+14,Q014,1014,Diploma,TAFE Queensland,2020,4.80,,t,2026-05-15 11:28:44.795288
+15,Q015,1015,Year 12,Indooroopilly State High School,2016,,95.00,t,2026-05-15 11:28:44.795288
+16,Q016,1003,Diploma,Griffith University,2019,5.90,,t,2026-05-15 11:28:44.795288
