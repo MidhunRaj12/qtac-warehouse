@@ -26,5 +26,6 @@ $PG -c "UPDATE raw.preferences SET source_file = 'preferences.csv' WHERE source_
 
 echo "Building warehouse layer..."
 $PG -f sql/10_warehouse/dim_course.sql
+$PG -f sql/10_warehouse/dim_applicant.sql  #SCD2
 
 echo "Initial load complete."
